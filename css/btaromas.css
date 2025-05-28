@@ -22,6 +22,7 @@ header h1{
 
 nav{
     background-color: pink;
+    margin-bottom: 20px;
 }
 
 nav ul{
@@ -76,12 +77,38 @@ h2{
     display: block;
 } /*Esto no aparece en el video de la clase, lo agregué yo para achicar la foto de la vela*/
 
+
+.columnas{
+display: flex;
+}
+
 .bienvenidos{
     width: 75%;
+    padding-right: 20px;
 }
 
 .testimonios{
     width: 25%;
+}
+
+.testimonio{
+    background-color: #ccc;
+    padding: 16px;
+    margin-bottom: 10px;
+}
+
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    display: block;
+}
+
+.testimonio .autor{
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    margin: 16px 0;
 }
 
 /*fin de Bienvenidos*/
