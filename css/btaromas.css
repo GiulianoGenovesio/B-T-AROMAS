@@ -36,4 +36,27 @@ nav ul li{
 
 nav ul li a{
     color: white;
+    text-decoration: none;
+    padding: 3px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul li a.activo{
+    background-color: rgba(0,0,0,0.3);
+}
+
+footer{
+    background-color: #ccc;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.holder{
+    width: 960px;
+    margin: 0 auto;
 }
