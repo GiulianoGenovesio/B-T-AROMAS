@@ -190,6 +190,9 @@ width: 100%;
     nav ul{
         display: flex;
         justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        
     }
     
 }
