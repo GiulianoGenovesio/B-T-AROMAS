@@ -118,6 +118,7 @@ display: flex;
 
 .contacto{
     display: flex;
+    gap: 30px;
 }
 
 .contacto div{
@@ -138,6 +139,8 @@ width: 100%;
 
 .formulario p label{
     min-width: 100px;
+    display: flex;
+    align-items: flex;
 }
 
 .formulario p input,
@@ -155,6 +158,10 @@ width: 100%;
     height: 150px;
 }
 
+.formulario p:nth-child(4){
+    align-items: start;
+}
+
 .formulario input[type="submit"]{
     background-color: #6da9ed;
     width: auto;
@@ -164,6 +171,27 @@ width: 100%;
     cursor: pointer;
     position: relative;
     left: 100px;
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: pink;
+}
+
+@media screen and (max-widht:480px){
+    header{
+        text-align: center;
+    }
+    .holder{
+        flex-wrap: wrap;
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    
 }
 
 /*Fin Contacto*/
