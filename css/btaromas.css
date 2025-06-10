@@ -60,7 +60,7 @@ footer{
 }
 
 .holder{
-    width: 960px;
+   max-width: 960px;
     margin: 0 auto;
 } 
 
@@ -78,7 +78,9 @@ h2{
     display: block;
 } /*Esto no aparece en el video de la clase, lo agregué yo para achicar la foto de la vela*/
 
-
+.homeimg img{
+    max-width: 100%;
+}
 .columnas{
 display: flex;
 }
@@ -177,26 +179,48 @@ width: 100%;
     background-color: pink;
 }
 
-@media screen and (max-widht:480px){
-    header{
-        text-align: center;
-    }
-    .holder{
-        flex-wrap: wrap;
-    }
-    nav{
-        width: 100%;
-    }
-    nav ul{
-        display: flex;
-        justify-content: space-between;
-        margin: 0;
-        padding: 0;
-        
-    }
-    
-}
-
 /*Fin Contacto*/
 
+/*Inicio @media 550*/
+@media screen and (max-width: 550px){
+    /*Bienvenidos*/
+    .columnas{
+        flex-direction: column;
+    }
+    .bienvenidos, .testimonios{
+        width: 100%;
+    }
+    .holder{
+        padding: 0 16px;
+    }
+    .contacto{
+        flex-direction: column;
+    }
+    .datos{
+        display: none;
+    }
+    header .holder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 16px 0;
+    }
 
+    header h1{
+        position: static;
+        margin-left: 10px;
+        font-size: 27px;
+    }
+    header img{
+        max-width: 80px;
+    }
+}
+
+/*Fin @media 550**/
+
+@media screen and (max-width: 320px){
+    nav ul.holder{
+flex-direction: column;
+padding: 0;
+    }
+}
