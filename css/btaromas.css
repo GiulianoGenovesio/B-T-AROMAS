@@ -180,6 +180,14 @@ width: 100%;
 }
 
 /*Fin Contacto*/
+/*Inicio de Servicios*/
+.servicio img{
+    width: 300px;
+    
+}/*ESTE LO INVENTÉ YO, NO LO DICE EN LA VIDEOCLASE DEL CURSO*/
+
+
+/*Fin de Servicios*/
 
 /*Inicio @media 550*/
 @media screen and (max-width: 550px){
