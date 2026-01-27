@@ -188,6 +188,7 @@ width: 100%;
     display: flex;
     align-items: center;
     gap: 30px;
+    padding: 10px;
 }
 .servicio .info h4{
     color:  rgb(207, 84, 84);
@@ -207,8 +208,10 @@ width: 100%;
     /* width: 250px; */
     border-radius: 13px;
     display: block;
-    
 }/*ESTE LO INVENTÉ YO, NO LO DICE EN LA VIDEOCLASE DEL CURSO*/
+.servicio:nth-child(even){
+    flex-direction: row-reverse;
+}
 
 
 /*Fin de Servicios*/
