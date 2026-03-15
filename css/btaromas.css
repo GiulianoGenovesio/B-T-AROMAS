@@ -121,6 +121,7 @@ display: flex;
 .contacto{
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .contacto div{
@@ -218,6 +219,11 @@ width: 50%;
     flex-direction: row-reverse;
 }
 
+@media (max-widht:768px) {
+    .contacto {
+        flex-direction: column;
+    }
+}
 
 
 /*Fin de Servicios*/
