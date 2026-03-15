@@ -128,8 +128,8 @@ display: flex;
 width: 50%;
 }
 
-.contacto .mapa{
-    width: 50%;
+.contacto .mapa iframe{
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -219,7 +219,7 @@ width: 50%;
     flex-direction: row-reverse;
 }
 
-@media (max-widht:768px) {
+@media (max-width:768px) {
     .contacto {
         flex-direction: column;
     }
@@ -244,7 +244,7 @@ width: 50%;
         flex-direction: column;
     }
     .datos{
-        display: none;
+        display: block;
     }
     header .holder{
         display: flex;
