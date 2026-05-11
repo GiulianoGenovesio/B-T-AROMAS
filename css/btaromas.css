@@ -6,7 +6,8 @@ body{
     line-height: 20px;
 }
 header{
-    background-color: rgb(207, 84, 84);
+   background: #fb3f3f;
+background: linear-gradient(171deg, rgba(251, 63, 63, 1) 23%, rgba(237, 192, 200, 1) 69%);
     padding-top: 20px;
 }
 
